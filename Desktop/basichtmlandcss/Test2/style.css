@@ -1,0 +1,36 @@
+div{
+    height: 250px;
+    width: 350px;
+    
+
+}
+body{
+    perspective: 800px;
+}
+.a{
+    background-color: indianred;
+    /* background-repeat: no-repeat;  image ke liye  */
+
+
+}
+
+.a,
+.b{
+position: absolute;
+/* top: 100px; */
+backface-visibility: hidden;
+margin: 10px auto;
+}
+.b{
+    background-color: gray;
+    transform:rotateY(180deg);
+}
+.wrap{
+    
+    transition: all 2s;
+    transform-style: preserve-3d;
+
+}
+.wrap:hover{
+    transform: rotateY(180deg);
+}
