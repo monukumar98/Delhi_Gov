@@ -1,0 +1,25 @@
+.div{
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    border: 2px solid black;
+    /* position: relative;
+   left : -10px; 
+   top: -10px; */
+   /* position: absolute;
+   left : 50px; 
+   top: -10px; */
+   /* position: fixed;
+   left : 100px; 
+   top: 100px; */
+   position: static;
+   left : 50px; 
+   top: 10px;
+   /* transition-duration: 3s; */
+    
+}
+/* .div:hover{
+    left: 100px;
+    background-color: fuchsia;
+    cursor: pointer;
+} */

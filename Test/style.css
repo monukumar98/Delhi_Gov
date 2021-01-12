@@ -1,0 +1,66 @@
+h1{
+    
+    border: 5px solid red;
+     background-color: blueviolet ;
+     margin-bottom: 120px;
+     padding-left: 100px;
+}
+h2{
+    /* margin-top: 1opx;
+    margin-bottom: 10px; */
+    border: 5px solid green;
+}
+/* p{
+    border: 5px solid coral;
+    background-color: cyan;
+} */
+div{
+    text-align: center;
+    height: 200px;
+    width: 800px;
+    background-color: gray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 10px solid green;
+    margin: 40px;
+    transition-property: border-radius;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    cursor: pointer;
+}
+div:hover{
+    border-radius: 50% ;
+
+}
+#text :{
+    text-decoration: double;
+    /* background-color: green; */
+}
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color:lightsalmon;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+h1{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: overline;
+}
+p{
+    text-decoration: line-through;
+}
