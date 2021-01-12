@@ -1,0 +1,28 @@
+h1{
+    display: none;
+}
+/* ul{
+    display: none;
+} */
+/* ul{
+    display: block;
+} */
+
+ul{
+border: 2px solid black;
+width: 500px;
+}
+li{
+    border: 1px solid red;
+    display: inline;
+}
+span{
+    border: 2px solid gray;
+    display: block;
+}
+div{
+    border: 2px solid blue;
+    /* width: 200px; */
+    /* height: 100px; */
+    display: inline-block;
+}
